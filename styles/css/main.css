@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  color-scheme: dark light;
+}
+
+body {
+  min-height: 100vh;
+}
+
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+textarea,
+button,
+select {
+  font: inherit;
+}
+
+.navbar h1 {
+  font-family: Poppins sans-serif;
+  color: #fff;
+}
+
+input {
+  font-size: 0.875rem;
+}
+
+.card-column h2 {
+  font-family: WorkSans;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #2f2f2f;
+}
+
+.task-date {
+  font-family: WorkSans;
+  font-size: 0.625rem;
+  letter-spacing: 0.1px;
+  color: #9b9b9b;
+}
+
+/*# sourceMappingURL=main.css.map */

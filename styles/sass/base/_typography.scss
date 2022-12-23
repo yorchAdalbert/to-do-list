@@ -1,0 +1,32 @@
+@use '../abstracts/' as *;
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+.navbar {
+    h1 {
+        font-family: Poppins sans-serif;
+        color: $white;
+    }
+}
+
+input {
+    font-size: 0.875rem;
+}
+
+.card-column {
+    h2 {
+        font-family: WorkSans;
+        font-size: 1rem;
+        font-weight: 600;
+        letter-spacing: 0.2px;
+        text-align: left;
+        color: $dark-black;
+    }
+}
+
+.task-date {
+    font-family: WorkSans;
+    font-size: 0.625rem;
+    letter-spacing: 0.1px;
+    color: $light-gray;
+}
